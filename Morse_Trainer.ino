@@ -5,13 +5,15 @@
 
     Delay settings derived from information at http://www.kent-engineers.com/codespeed.htm
     Morse prosigns documented at https://en.wikipedia.org/wiki/Prosigns_for_Morse_code#
+    pitches.h is available at https://gist.github.com/mikeputnam/2820675 add to local libraries dir
 
-    Rev: 0.1
+    Rev: 0.2  : added some documentation
 
 */
 
-#include <pitches.h>
 #include <string.h>
+#include <Arduino.h>
+#include <pitches.h>
 
 boolean DEBUG_PRINT = true;
 boolean done = false;
